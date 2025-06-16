@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="pEWrIM3e|FBA!K6[8y(9">mySprite</variable><variable type="KIND_SpriteKind" id="3MrAbOy#KFTq:P0UsK^}">Player</variable><variable type="KIND_SpriteKind" id="|:EEt:|+V#^%5GlUli0W">Projectile</variable><variable type="KIND_SpriteKind" id="sJg}D02to::y^B}1=hj_">Food</variable><variable type="KIND_SpriteKind" id="LhUDvBMUj.}G`L_A31?_">Enemy</variable></variables><block type="pxt-on-start" id="ZQ9R=cbdOO{~VsnED,:l" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="97mwhY[U?Fn5M7xMrREE"><field name="VAR" id="pEWrIM3e|FBA!K6[8y(9">mySprite</field><value name="VALUE"><shadow type="math_number" id="U?@Z2u,NT9W,2#X.6^eB"><field name="NUM">0</field></shadow><block type="spritescreate" id="~BjY4@y[4;gKf}ddsxX,"><value name="img"><shadow type="screen_image_picker" id="P_x$dI.|dY[qclhZDveg"><field name="img">img`
+. . . . . . . . . . . . . . 
+. f f f . f f f f . f f f . 
+f f f f f c c c c f f f f f 
+f f f f b c c c c b f f f f 
+f f f c 3 c c c c 3 c f f f 
+. f 3 3 c c c c c c 3 3 f . 
+. f c c c c 4 4 c c c c f . 
+. f f c c 4 4 4 4 c c f f . 
+. f f f b f 4 4 f b f f f . 
+. f f 4 1 f d d f 1 4 f f . 
+. e f e 4 d d d d d f f . . 
+. e 4 d d e b b b f f e f . 
+. . e d d e 3 3 b e f 4 e . 
+. . . e e f 6 6 6 6 f . . . 
+. . . . f f f f f f f . . . 
+. . . . . . . . f f f . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="WYMDzm7g69oq,,G0Jd!|"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="9IJklsPl(gsTPaTXIW(+"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="`?]^rA.g3HhL}_Bk0-Zr"><field name="VAR" id="pEWrIM3e|FBA!K6[8y(9">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="6|_}i}o/KHbs-3V8w=,3"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="k^L`l`h038*iiExJdHTW"><field name="speed">100</field></shadow></value><next><block type="camerafollow" id="_kw)J{H!/3st4nQD4H%S"><value name="sprite"><block type="variables_get" id="@QpErw5ScfSzPQk_9iT0"><field name="VAR" id="pEWrIM3e|FBA!K6[8y(9">mySprite</field></block></value></block></next></block></next></block></statement></block></xml>
